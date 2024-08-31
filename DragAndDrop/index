@@ -1,0 +1,61 @@
+<!-- Video de referencia: https://youtu.be/9HUlUnM3UG8?si=FiWvBTvAWMrPXMq2 -->
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/82e317bcf7.js" crossorigin="anonymous"></script>
+
+    <link rel="shortcut icon" href="img/icons8-arrastar-e-soltar-16.png">
+
+    <script src="app.js" defer></script>
+
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>Drag And Drop</title>
+</head>
+
+<body>
+<ul class="sortable-list">
+    <li class="item" draggable="true">
+        <div class="details">
+           <span>Objeto 1</span>
+        </div>
+        <i class="fa-solid fa-grip-vertical"></i>
+    </li>
+    
+    <li class="item" draggable="true">
+        <div class="details">
+           <span>Objeto 2</span>
+        </div>
+        <i class="fa-solid fa-grip-vertical"></i>
+    </li>
+
+    <li class="item" draggable="true">
+        <div class="details">
+           <span>Objeto 3</span>
+        </div>
+        <i class="fa-solid fa-grip-vertical"></i>
+    </li>
+
+    <li class="item" draggable="true">
+        <div class="details">
+           <span>Objeto 4</span>
+        </div>
+        <i class="fa-solid fa-grip-vertical"></i>
+    </li>
+
+    <li class="item" draggable="true">
+        <div class="details">
+           <span>Objeto 5</span>
+        </div>
+        <i class="fa-solid fa-grip-vertical"></i>
+    </li>
+</ul>
+</body>
+
+</html>
